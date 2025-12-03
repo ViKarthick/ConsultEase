@@ -20,42 +20,41 @@ ConsultEase provides a centralized solution that automates core workflows, ensur
 ### 1. Role-Based Authentication
 - Secure login for faculty using stored credentials.
 - Admin login with elevated privileges for global monitoring and control.
-- Authentication data stored and validated through Google Apps Script and Sheets. :contentReference[oaicite:1]{index=1}
+- Authentication data stored and validated through Google Apps Script and Sheets.
 
 ### 2. Faculty Dashboard
 - Displays only the projects associated with the logged-in faculty member.
 - Supports adding, editing, and deleting consultancy projects.
 - Filtering options for academic year, industry, amount, and faculty name.
 - Export options for downloading filtered data as CSV.
-- Real-time data fetching from Apps Script ensures consistency with the backend. :contentReference[oaicite:2]{index=2}
+- Real-time data fetching from Apps Script ensures consistency with the backend.
 
 ### 3. Consultancy Project Form
 - Collects complete project details: title, industry, academic year, investigators, financial data, and summary.
 - Supports PDF uploads for bills and agreements.
 - Automatically renames and uploads files securely to Google Drive.
 - Handles edit mode with pre-filled existing data.
-- Integrates form validation and post-submission redirection. :contentReference[oaicite:3]{index=3}
+- Integrates form validation and post-submission redirection.
 
 ### 4. Admin Dashboard
 - Comprehensive view of all consultancy projects submitted across the institution.
 - Advanced filtering based on academic year, investigator, industry, and funding range.
 - Supports per-project operations and bulk deletions.
 - Displays user–project mapping for effective oversight.
-- Allows exporting filtered project data or user lists to Excel/CSV. :contentReference[oaicite:4]{index=4}
+- Allows exporting filtered project data or user lists to Excel/CSV.
 
 ### 5. Automated Email Workflow
 - Sends confirmation emails when projects are added or updated.
 - Sends periodic reminders for approaching deadlines.
 - Issues a final reminder on the deadline date.
 - Sends alerts for missed deadlines.
-- Implemented using time-based triggers and MailApp in Apps Script. :contentReference[oaicite:5]{index=5}
+- Implemented using time-based triggers and MailApp in Apps Script.
 
 ### 6. Centralized Document Management
 - Faculty can upload agreements, bills, and other documents in PDF format.
 - Files stored securely in Google Drive with controlled access.
 - Sheet rows store only file URLs for lightweight database usage.
-- On deletion of a project or user, associated files are automatically moved to trash. :contentReference[oaicite:6]{index=6}
-
+- On deletion of a project or user, associated files are automatically moved to trash.
 ---
 
 ## System Architecture
