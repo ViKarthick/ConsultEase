@@ -2,7 +2,7 @@
 
 ConsultEase is a full-stack, web-based platform designed to streamline the recording, tracking, and management of consultancy projects within academic institutions.  
 It replaces manual paperwork and fragmented data storage with an integrated system built using **React**, **Google Apps Script**, **Google Sheets**, and **Google Drive**.  
-The platform supports role-based access, automated reminders, real-time dashboards, and secure document management. :contentReference[oaicite:0]{index=0}
+The platform supports role-based access, automated reminders, real-time dashboards, and secure document management.
 
 ---
 
